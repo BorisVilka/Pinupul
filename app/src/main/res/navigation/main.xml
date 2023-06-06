@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="app.pinupul.game.StartFragment"
+        android:label="StartFragment" />
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="app.pinupul.game.SelectFragment"
+        android:label="SelectFragment" />
+    <fragment
+        android:id="@+id/chipsFragment"
+        android:name="app.pinupul.game.ChipsFragment"
+        android:label="ChipsFragment" />
+    <fragment
+        android:id="@+id/slotsFragment"
+        android:name="app.pinupul.game.SlotsFragment"
+        android:label="SlotsFragment" />
+</navigation>
